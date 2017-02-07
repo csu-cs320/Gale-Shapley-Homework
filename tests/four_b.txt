@@ -1,0 +1,9 @@
+a: f g h e
+b: e h f g
+c: g h e f
+d: e f g h
+
+e: a c d b
+f: c b d a
+h: d a b c
+g: d c b a
