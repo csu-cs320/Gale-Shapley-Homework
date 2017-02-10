@@ -22,7 +22,7 @@ abe dee
 bob carol
 ```
 
-It should output a file describing a matching produced by the Gale-Shapley algorithm in the format shown in the tests. This file should be named like the input file with "_solution" appended. That file should describe one of the possible matchings produced by GS. It doesn't matter which group you choose to be the proposers (we'll check both solutions), and it doesn't matter which way you specify the matching. We will read it in as a dictinary and calculate the reverse associations as well. So "a b" is one way to say "a is matched with b". And "b a" is another.
+It should output a file describing a matching produced by the Gale-Shapley algorithm in the format shown in the tests. This file should be named like the input file with "_solution" appended. That file should describe one of the possible matchings produced by GS. It doesn't matter which group you choose to be the proposers (we'll check both solutions), and it doesn't matter which way you specify the matching. We will read it in as a dictionary and calculate the reverse associations as well. So "a b" is one way to say "a is matched with b". And "b a" is another.
 
 ### Example
 
