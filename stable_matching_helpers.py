@@ -1,6 +1,11 @@
 import itertools
 import random
 
+# In this file, a matching looks like {'a': 'c', 'b': 'd', 'c': 'a', 'd': 'b'} for example.
+# And a stable matching problem looks like:
+# ({'a': {'c': 0, 'd': 1}, 'b': {'c': 0, 'd': 1}},
+#  {'c': {'a': 0, 'b': 1}, 'd': {'a': 0, 'b': 1}})
+# for example. 
 
 def inverse_dict(d):
     '''Invert the mappings (k,v) => (v,k) of argument d, returning the new dict'''
